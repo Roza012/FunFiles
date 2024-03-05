@@ -8,7 +8,7 @@ def main():
     path.size()
     path.name()
     print_file = TextReader(r"C:\Users\User\Documents\meow.txt")
-    # print_file.read()
+    print_file.read()
 
 
 if __name__ == '__main__':
