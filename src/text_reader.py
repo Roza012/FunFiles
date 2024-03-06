@@ -12,12 +12,6 @@ class TextReader(FileReader):
     Class that hair from FileReader class.
     Have a function that read and print file.
     """
-    # def check(self):
-    #     name = FileReader.name(self)
-    #     split_name = name.split(".")
-    #     if split_name[-1] == "txt":
-    #         return True
-
     def read(self):
         """
         Read a file and print his content.
