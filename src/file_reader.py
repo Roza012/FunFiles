@@ -19,7 +19,7 @@ class FileReader:
         if os.path.isfile(file_path):
             self.file_path = file_path
 
-    def size(self):
+    def size(self) -> int:
         """
         Returning the size of the file by using the module os.
         :return: File size
@@ -27,7 +27,7 @@ class FileReader:
         file_size = os.stat(self.file_path).st_size
         return file_size
 
-    def name(self):
+    def name(self) -> str:
         """
         Returning the name of the file by using the module os.
         :return: File name.
